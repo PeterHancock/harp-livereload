@@ -1,0 +1,17 @@
+{
+  "name": "harp-livereload",
+  "description": "A LiveReload harp server",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Peter Hancock <peter.hancock@gmail.com> (https://peterhancock.github.io)",
+  "repository": {
+    "url": "git://github.com/PeterHancock/harp-livereload.git"
+  },
+  "bin": "bin/cmd.js",
+  "dependencies": {
+    "ecstatic": "~0.8.0",
+    "chokidar": "~1.0.5",
+    "livereload": "~0.3.7",
+    "harp": "~0.17.0"
+  }
+}
